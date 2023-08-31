@@ -1,21 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.sistema.examenes.entidades;
 
-/**
- *
- * @author rafhael
- */
-public class jwtResponse {
+public class JwtResponse {
     private String token;
 
-    public jwtResponse() {
+    public JwtResponse(String token) {
+        this.token = token;
     }
 
-    public jwtResponse(String token) {
-        this.token = token;
+    public JwtResponse() {
     }
 
     public String getToken() {
@@ -25,5 +17,4 @@ public class jwtResponse {
     public void setToken(String token) {
         this.token = token;
     }
-    
 }

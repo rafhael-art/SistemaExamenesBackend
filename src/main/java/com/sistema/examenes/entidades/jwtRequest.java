@@ -1,21 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.sistema.examenes.entidades;
 
-/**
- *
- * @author rafhael
- */
-public class jwtRequest {
+public class JwtRequest {
     private String username;
     private String password;
 
-    public jwtRequest() {
+    public JwtRequest(){
+
     }
 
-    public jwtRequest(String username, String password) {
+    public JwtRequest(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -35,6 +28,4 @@ public class jwtRequest {
     public void setPassword(String password) {
         this.password = password;
     }
-    
-    
 }
